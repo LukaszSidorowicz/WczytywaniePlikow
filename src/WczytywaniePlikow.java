@@ -36,12 +36,12 @@ public class WczytywaniePlikow {
 
 		if (wybor == 1) {
 			csvFile = "/home/lukasz/workspace/Wczytywanie/src/plikTekstowy.csv";
-			cvsSplitBy = ",";
+			cvsSplitBy = ";";
 		}
 
 		if (wybor == 2) {
 			csvFile = "/home/lukasz/workspace/Wczytywanie/src/plikTekstowy1.csv";
-			cvsSplitBy = ";";
+			cvsSplitBy = ",";
 		}
 
 		try {
