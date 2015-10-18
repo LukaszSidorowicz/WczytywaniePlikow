@@ -19,7 +19,7 @@ public class WczytywaniePlikow {
 			String csvFile = "/home/lukasz/workspace/Wczytywanie/src/plikTekstowy.csv";
 			BufferedReader br = null;
 			String line = "";
-			String cvsSplitBy = ",";
+			String cvsSplitBy = ";";
 
 			try {
 
